@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(black, royalblue);
+}
+
+p {
+  color: yellow;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  color: crimson;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
